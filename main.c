@@ -1,11 +1,12 @@
 #include "all.h"
 
-
-int main() {
+int
+main()
+{
 	Rule *r = initRule();
 
 	int i;
-	for (i = 1; i <= 15; i++)
+	for (i = 1; i <= 100; i++)
 		say(r, i);
 	return 0;
 }
