@@ -1,0 +1,3 @@
+P=fizzbuzz
+
+$(P):
