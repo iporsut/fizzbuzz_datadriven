@@ -1,3 +1,5 @@
-P=fizzbuzz
+fizzbuzz: main.c
+	gcc -o fizzbuzz main.c
 
-$(P):
+clean:
+	rm fizzbuzz
